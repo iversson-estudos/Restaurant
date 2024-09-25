@@ -1,8 +1,12 @@
+import ambiente from "./img/ambiente.png"
+
+
+
 const image = document.createElement('img');
 const headline = document.createElement('h1');
 const underheadText = document.createElement('p');
 
-image.src = "https://placehold.co/600x400/000000/FFF?text=PLACEHOLDER";
+image.src = ambiente;
 
 headline.textContent="Welcome to the Belly";
 
@@ -18,6 +22,7 @@ function homepage(){
     content.appendChild(image);
     content.appendChild(headline);
     content.appendChild(underheadText);
+    console.log('executed');
 }
 
 
