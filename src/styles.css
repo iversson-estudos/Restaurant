@@ -52,6 +52,15 @@ table {
 
 
 body{
-    background-color:beige;
+
+   background-color: #948881;
+
+   #produto{
+    width: 400px;
+    height: 240px;
+   }
+
+
+    
 }
 

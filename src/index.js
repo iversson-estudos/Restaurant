@@ -1,16 +1,17 @@
 import "./styles.css";
 import {homepage} from "./homepageContent.js";
+import {menu} from "./menu.js";
 
 homepage();
 
-const home = document.getElementById('home');
+const homeBtn = document.getElementById('home');
 
-const menu = document.getElementById('menu');
+const menuBtn = document.getElementById('menu');
 
 const about = document.getElementById('about');
 
-home.addEventListener('click',homepage);
+homeBtn.addEventListener('click',homepage);
 
-menu.addEventListener('click',homepage);
+menuBtn.addEventListener('click',menu);
 
-about.addEventListener('click',homepage);
+aboutBtn.addEventListener('click',homepage);
