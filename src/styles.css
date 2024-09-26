@@ -59,14 +59,13 @@ body{
    background-color: #44313b;
    margin-right: 12vw;
    margin-left: 12vw;
-
-
    
 
    header{
+        
         nav{
-
-            
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
             
             button{
                 margin-left: 8px;
@@ -79,8 +78,24 @@ body{
         }
    }
 
-  
+ 
+   #content{
+        
 
+    #infoDiv{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            
+            #homepageImg{
+                width: 25vw;
+            }
+        }
+        p{
+            text-align:center;
+            font-size: 24px;
+        }
+   }
  
    
    
