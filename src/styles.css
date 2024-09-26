@@ -51,9 +51,12 @@ table {
 
 
 
+
 body{
 
-   background-color: #948881;
+   font-family: "Raleway", sans-serif; 
+   letter-spacing: 2px;
+   background-color: #44313b;
 
    #produto{
     width: 400px;

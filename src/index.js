@@ -1,6 +1,7 @@
 import "./styles.css";
 import {homepage} from "./homepageContent.js";
 import {menu} from "./menu.js";
+import {sobre} from "./sobre.js";
 
 homepage();
 
@@ -8,10 +9,10 @@ const homeBtn = document.getElementById('home');
 
 const menuBtn = document.getElementById('menu');
 
-const about = document.getElementById('about');
+const sobreBtn = document.getElementById('sobre');
 
 homeBtn.addEventListener('click',homepage);
 
 menuBtn.addEventListener('click',menu);
 
-aboutBtn.addEventListener('click',homepage);
+sobreBtn.addEventListener('click',sobre);

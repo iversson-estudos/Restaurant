@@ -19,7 +19,9 @@ const  produtos = [
 
 
 function menu(){
-    document.body.innerHTML='';
+    
+    const content =  document.getElementById('content');
+    content.innerHTML='';
 
     produtos.forEach((item)=>{
         const div = document.createElement('div');
@@ -33,7 +35,7 @@ function menu(){
         div.appendChild(img);
         
         
-        document.body.appendChild(div);
+       content.appendChild(div);
 
     });
 

@@ -1,4 +1,4 @@
-import ambiente from "./img/ambiente.png"
+import logo from "./img/logo.png"
 
 
 
@@ -6,22 +6,23 @@ const image = document.createElement('img');
 const headline = document.createElement('h1');
 const underheadText = document.createElement('p');
 
-image.src = ambiente;
+image.src = logo;
 
 headline.textContent="DELICIAS DO SUL";
 
-underheadText.innerHTML='If you want to prove the best dishes of our city, You came to the right place,<br>';
-underheadText.innerHTML+='Dishes prepared by the most requinted cheffs of the world<br>';
-underheadText.innerHTML+='Handpicked ingredients, produced by locals, following all the michelin standards on their growth<br>';
-underheadText.innerHTML+='Drinks from all over the world, so you thirst has no chance of ruining your appetite<br>';
-
-
+underheadText.innerHTML='Sejam bem vindos a melhor padaria de Porto Nacional<br>';
+underheadText.innerHTML+='Aqui você encontra salgados e doces com muita variedade e sabor<br>'
+underheadText.innerHTML+='Todos feitos com muito carinho e amor<br>';
+const headerDiv = document.createElement('div');
+headerDiv.id='headerDiv';
+headerDiv.appendChild(headline);
+headerDiv.appendChild(image);
 
 function homepage(){
     
     const content =  document.getElementById('content');
-    content.appendChild(headline);
-    content.appendChild(image);
+    content.innerHTML='';
+    content.appendChild(headerDiv);
     content.appendChild(underheadText);
 }
 
