@@ -57,6 +57,46 @@ body{
    font-family: "Raleway", sans-serif; 
    letter-spacing: 2px;
    background-color: #44313b;
+   margin-right: 12vw;
+   margin-left: 12vw;
+
+
+   
+
+   header{
+        nav{
+
+            
+            
+            button{
+                margin-left: 8px;
+                margin-right: 8px;
+                border: 2px solid red;
+                font-size: 48px;
+                background-color:#44313b;
+                color: white;
+            }
+        }
+   }
+
+  
+
+ 
+   
+   
+    >*{
+        
+        >*{
+            border: 2px solid green;
+            
+            img{
+                border: 2px solid blue;
+            }
+        }
+    }
+   
+   
+
 
    #produto{
     width: 400px;
