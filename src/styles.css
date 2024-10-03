@@ -127,17 +127,9 @@ table {
     border-spacing: 0;
 }
 
-body {
-    font-family: "Raleway", sans-serif;
-    letter-spacing: 2px;
-    background-color: #44313b;
-    margin-right: 12vw;
-    margin-left: 12vw;
 
-<<<<<<< HEAD
-    header {
-        nav {
-=======
+
+
 
 
 
@@ -145,17 +137,16 @@ body {
 
 body{
 
-   font-family: "Raleway", sans-serif; 
+   font-family: "Raleway", sans-serif;
    letter-spacing: 1px;
    background-color: #44313b;
    margin-right: 12vw;
    margin-left: 12vw;
-   
+
 
    header{
-        
+
         nav{
->>>>>>> 74a9ba7c0c1d5be3b06012acf7fd96ad7413e013
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             margin-bottom: 16px;
@@ -182,16 +173,7 @@ body{
                 width: 25vw;
             }
         }
-<<<<<<< HEAD
-        p {
-            text-align: center;
-            font-size: 24px;
-=======
-        p{
-            text-align:center;
-            font-size: 16px;
->>>>>>> 74a9ba7c0c1d5be3b06012acf7fd96ad7413e013
-        }
+        
         /*MENU*/
         #menu {
             display: flex;
