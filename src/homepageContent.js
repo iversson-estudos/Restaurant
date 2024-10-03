@@ -12,7 +12,7 @@ image.id = 'homepageImg'
 
 underheadText.innerHTML='Sejam bem vindos a melhor padaria de Porto Nacional<br>';
 underheadText.innerHTML+='Aqui você encontra salgados e doces com muita variedade e sabor<br>'
-underheadText.innerHTML+='Todos feitos com muito carinho e amor<br>';
+underheadText.innerHTML+='Todos feitos com muito amor e carinho<br>';
 const infoDiv = document.createElement('div');
 infoDiv.id='infoDiv';
 infoDiv.appendChild(image);
