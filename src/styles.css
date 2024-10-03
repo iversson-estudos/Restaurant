@@ -134,6 +134,15 @@ body {
     margin-right: 12vw;
     margin-left: 12vw;
 
+    .material-symbols-outlined {
+        font-size: 36px;
+        font-variation-settings:
+            "FILL" 0,
+            "wght" 500,
+            "GRAD" 0,
+            "opsz" 24;
+    }
+
     header {
         nav {
             display: grid;
@@ -141,6 +150,8 @@ body {
             margin-bottom: 16px;
 
             button {
+                border-radius: 8px;
+                border: 2px solid black;
                 margin-left: 8px;
                 margin-right: 8px;
                 font-size: 48px;
