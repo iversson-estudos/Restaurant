@@ -14,12 +14,12 @@ underheadText.innerHTML += "Todos feitos com muito amor e carinho<br>";
 const infoDiv = document.createElement("div");
 infoDiv.id = "infoDiv";
 infoDiv.appendChild(image);
+infoDiv.appendChild(underheadText);
 
 function homepage() {
   const content = document.getElementById("content");
   content.innerHTML = "";
   content.appendChild(infoDiv);
-  content.appendChild(underheadText);
 }
 
 export { homepage };
