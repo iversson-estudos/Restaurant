@@ -25,7 +25,6 @@ function menu() {
 
     p.textContent = item.nome;
     img.src = item.imagem;
-    img.id = "produto";
     div.id = "menu";
     div.appendChild(p);
     div.appendChild(img);

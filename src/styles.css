@@ -151,12 +151,17 @@ body {
 
             button {
                 border-radius: 8px;
-                border: 2px solid black;
+                border: 4px solid black;
                 margin-left: 8px;
                 margin-right: 8px;
-                font-size: 48px;
-                background-color: #44313b;
-                color: white;
+                padding-bottom:8px;
+                font-size: calc(36px + 2vw);
+                background-color: #44313b;                color: white;
+            }
+            button:hover {
+                
+                background-color: white;
+                color: #250c19;
             }
         }
     }
@@ -172,10 +177,14 @@ body {
 
             p {
                 text-align: center;
+                font-size: calc(6px + 2vw);
+                font-weight: 600;
             }
 
             img {
-                width: 25vw;
+                width: calc(360px + 10vw);
+                margin-bottom: 16px;
+                margin-top: 32px;
             }
         }
 
@@ -186,11 +195,14 @@ body {
             align-items: center;
             justify-content: center;
 
-            #produto {
+            img{
                 border: 2px solid black;
                 margin: 4px;
                 width: 400px;
                 height: 240px;
+            }
+            p{
+                font-size: 24px;
             }
         }
         /*SOBRE*/
